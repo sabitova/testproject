@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace TeamSM
 {
-    class Program
+    class Buyer
     {
-        static void Main(string[] args)
-        {
-        }
+        public int Id { get; set; };
+        public List<Item> Items { get; set; }
     }
 }
