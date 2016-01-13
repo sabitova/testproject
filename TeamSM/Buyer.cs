@@ -8,7 +8,7 @@ namespace TeamSM
 {
     class Buyer
     {
-        public int Id { get; set; };
+        public int Id { get; set; }
         public List<Item> Items { get; set; }
     }
 }
